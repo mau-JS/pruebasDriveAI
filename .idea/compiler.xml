@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProyectoDriveAI" />
-        <module name="sales_process-ms" />
         <module name="driveAIMau" />
+        <module name="ProyectoDriveAI" />
+        <module name="Entrega Micro" />
+        <module name="sales_process-ms" />
+        <module name="pruebasDriveAI-main" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Entrega Micro" options="-parameters" />
       <module name="ProyectoDriveAI" options="-parameters" />
       <module name="driveAIMau" options="-parameters" />
+      <module name="pruebasDriveAI-main" options="-parameters" />
       <module name="sales_process-ms" options="-parameters" />
     </option>
   </component>

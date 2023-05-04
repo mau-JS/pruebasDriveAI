@@ -1,4 +1,4 @@
-package com.driveAI.sales_processms;
+package com.driveai.sales_processms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
